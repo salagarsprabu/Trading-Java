@@ -15,7 +15,7 @@ public class CurrentStock {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
-	int currentStockId;
-	int stockId;
-	double price; 
+	private int currentStockId;
+	private int stockId;
+	private double price; 
 }

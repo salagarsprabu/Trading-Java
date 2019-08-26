@@ -17,10 +17,10 @@ public class Stack {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
-	int stackId;
-	String stackName;
-	double unitPrice;
-	LocalDate stockCreatedOn;
-	int criselRating;
+	private int stackId;
+	private String stackName;
+	private double unitPrice;
+	private LocalDate stockCreatedOn;
+	private int criselRating;
 	
 }
