@@ -2,7 +2,11 @@ package com.stack.service;
 
 import org.springframework.stereotype.Service;
 
+import com.stack.dto.StockResponseDto;
+
 @Service
-public class StockService {
+public interface StockService {
+
+	StockResponseDto getStockList();
 
 }
