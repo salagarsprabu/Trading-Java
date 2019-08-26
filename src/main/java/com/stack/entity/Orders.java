@@ -21,12 +21,12 @@ public class Orders {
 
 
 	private int orderId;
-	private int qunatity;
+	private int quantity;
 	private double totalPrice;
 	private String orderStatus;
 	private LocalDate orderDate;
 	private int stockId;
 	private int userId;
-
+	private Double unitPrice;
 
 }
