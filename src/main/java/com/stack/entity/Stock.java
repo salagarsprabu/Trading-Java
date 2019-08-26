@@ -13,12 +13,12 @@ import lombok.Setter;
 @Entity
 @Setter
 @Getter
-public class Stack {
+public class Stock {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
-	private int stackId;
-	private String stackName;
+	private int stockId;
+	private String stockName;
 	private double unitPrice;
 	private LocalDate stockCreatedOn;
 	private int criselRating;

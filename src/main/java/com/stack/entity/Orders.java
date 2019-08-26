@@ -17,6 +17,9 @@ public class Orders {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
+
+
+
 	private int orderId;
 	private int quantity;
 	private int unitPrice;
@@ -25,5 +28,6 @@ public class Orders {
 	private LocalDate orderDate;
 	private int stockId;
 	private int userId;
+
 
 }
