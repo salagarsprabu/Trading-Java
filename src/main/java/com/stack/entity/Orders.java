@@ -17,12 +17,16 @@ public class Orders {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
-	int orderId;
-	int qunatity;
-	double totalPrice;
-	String orderStatus;
-	LocalDate orderDate;
-	int stockId;
-	int userId;
+
+
+
+	private int orderId;
+	private int qunatity;
+	private double totalPrice;
+	private String orderStatus;
+	private LocalDate orderDate;
+	private int stockId;
+	private int userId;
+
 
 }
