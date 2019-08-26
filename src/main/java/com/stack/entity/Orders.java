@@ -18,7 +18,8 @@ public class Orders {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private int orderId;
-	private int qunatity;
+	private int quantity;
+	private int unitPrice;
 	private double totalPrice;
 	private String orderStatus;
 	private LocalDate orderDate;
